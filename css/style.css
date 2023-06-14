@@ -1,0 +1,68 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.about{
+    margin-top: -10px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 800px 600px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.image{
+    padding-top: 50px;
+}
+.vulues_block{
+    
+    height: 1239px;
+    
+    background-color: rgb(0, 0, 0);
+}
+.history{
+    height: 1377px;
+    
+    background-color: rgb(0, 70, 131);
+}
+
+.about_title{
+    font-size: 72px;
+}
+.text_part{
+    padding-left: 200px;
+    padding-top: 213px;
+    word-wrap: break-word;
+    width: 600px;
+    height: 600px;
+    font-size:20px;
+
+    
+}
+
+.about_text{
+    padding-bottom: 20px;
+}
+
+.page{
+    font-size: 14px;
+    color: black;
+
+}
+
+
+
+.page::after{
+    content:" / About Us";
+    color: #9A9CA5;
+}
+
+
+.image_sity{
+    padding-left: 100px;
+    padding-top: 150px;
+    width: 500px;
+    height: 501px;
+  
+}
