@@ -2,24 +2,128 @@ body{
     font-family: 'Ubuntu', sans-serif;
 
 }
+/* Стили шапки блока навигации*/
+.active{
+    color: #FF5A30;
+    padding-left: 40px;
+
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+}
+.head{
+    display: inline;
+
+}
+.mobile_phone{
+    display: inline-block;
+    position: absolute;
+   
+}
+.contact{
+    padding-top:20px;
+    padding-left: 180px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+}
+.phone_text{
+    padding-top: -20px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    display: inline;
+    font-size: 16px;
+    
+}
+.phone_number{
+    font-size: 16px;
+    padding-top: 0px;
+    height: 0px;
+    padding-left: 50px;
+    padding-bottom: -20px;
+    width: 150px;
+    z-index: 4;
+    position: absolute;
+}
+.nav{
+    color:aliceblue;
+   
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    padding-left:200px;
+    font-size:20px;
+    padding-top: 33px;
+}
+.a1{
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+}
+.n1{
+    display: inline;
+    text-decoration: none;
+}
+
+
+.contact_message{
+    padding-top:20px;
+    padding-left: 400px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+}
+.mail_text{
+    position: absolute;
+    z-index: 20;
+    padding-top: -40px;
+    padding-left: 10px;
+    padding-bottom:10px;
+    display: inline;
+    font-size: 16px;
+}
+.mail_text2{
+    /* position: absolute; */
+    padding-left: 10px;
+    padding-top: 20px;
+    z-index: 200;
+    position: absolute;
+    display: inline;
+    font-size: 16px;
+}
+/* Стили шапки блока навигации*/
+
+
+
+
+
 
 
 .about{
     margin-top: -10px;
-    height: 700px;
-    background-color: rgb(255, 255, 255);
+    height: 600px;
+    
     display: grid;
     grid-template-columns: 800px 600px;
     grid-auto-rows: minmax(100px, auto);
 }
 .image{
     padding-top: 50px;
+    
+    width: 500px;
+    height: 501px;
 }
 .vulues_block{
     
     height: 1239px;
     
-    background-color: rgb(0, 0, 0);
+    
 }
 .history{
     height: 1377px;
@@ -31,8 +135,8 @@ body{
     font-size: 72px;
 }
 .text_part{
-    padding-left: 200px;
-    padding-top: 213px;
+    padding-left: 150px;
+    padding-top: 130px;
     word-wrap: break-word;
     width: 600px;
     height: 600px;
@@ -54,15 +158,15 @@ body{
 
 
 .page::after{
-    content:" / About Us";
+    content:" / О нас";
     color: #9A9CA5;
 }
 
 
 .image_sity{
-    padding-left: 100px;
-    padding-top: 150px;
-    width: 500px;
+    padding-left: 10px;
+    padding-top: 100px;
+    width: 700px;
     height: 501px;
   
 }
