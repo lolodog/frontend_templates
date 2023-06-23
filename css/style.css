@@ -412,3 +412,9 @@ body{
     padding-top: 36px;
 }
 /* Конец блока истории компании */
+
+/* Начало блоков партнеров */
+.partners{
+    height: 1929px;
+    background-color:#ffffff;
+}
