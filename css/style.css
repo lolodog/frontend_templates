@@ -6,27 +6,38 @@ body{
 .active{
     color: #FF5A30;
     padding-left: 40px;
-
+    
     text-decoration:none;
     font-weight: bold;
     display: inline-block;
     width: auto;
 }
+.active:hover{
+    color: #000000;
+}
+.a1:hover{
+    color: #FF5A30;
+}
 .head{
-    display: inline;
-
+    display: inline-block;
+    background-color:#ffffff;
+    /* position: fixed; */
+    height: 80px;
+    z-index: 30;
 }
 .mobile_phone{
     display: inline-block;
     position: absolute;
-   
+    /* position: fixed; */
+    background-color:#ffffff;
 }
 .contact{
     padding-top:20px;
-    padding-left: 180px;
-    height: 200px;
+    padding-left: 160px;
+    height: 60px;
     display: inline-block;
     position: absolute;
+    background-color:#ffffff;
 }
 .phone_text{
     padding-top: -20px;
@@ -34,7 +45,7 @@ body{
     padding-bottom: 0px;
     display: inline;
     font-size: 16px;
-    
+    background-color:#ffffff;
 }
 .phone_number{
     font-size: 16px;
@@ -45,6 +56,13 @@ body{
     width: 150px;
     z-index: 4;
     position: absolute;
+    background-color:#ffffff;
+}
+.home_image{
+   padding-top: 15px;
+   padding-left: 70px;
+   position: absolute;
+   background-color:#ffffff;
 }
 .nav{
     color:aliceblue;
@@ -53,7 +71,7 @@ body{
     padding: 0;
     list-style-type: none;
     display: inline-block;
-    padding-left:200px;
+    padding-left:150px;
     font-size:20px;
     padding-top: 33px;
 }
@@ -74,17 +92,19 @@ body{
 
 .contact_message{
     padding-top:20px;
-    padding-left: 400px;
+    padding-left: 430px;
     height: 200px;
     display: inline-block;
     position: absolute;
+    
 }
 .mail_text{
+    
     position: absolute;
     z-index: 20;
-    padding-top: -40px;
-    padding-left: 10px;
-    padding-bottom:10px;
+    padding-top: 6px;
+    padding-left: 490px;
+    padding-bottom:20px;
     display: inline;
     font-size: 16px;
 }
@@ -110,7 +130,7 @@ body{
     height: 600px;
     
     display: grid;
-    grid-template-columns: 800px 600px;
+    grid-template-columns: 600px 100px;
     grid-auto-rows: minmax(100px, auto);
 }
 .image{
@@ -119,17 +139,8 @@ body{
     width: 500px;
     height: 501px;
 }
-.vulues_block{
-    
-    height: 1239px;
-    
-    
-}
-.history{
-    height: 1377px;
-    
-    background-color: rgb(0, 70, 131);
-}
+
+
 
 .about_title{
     font-size: 72px;
@@ -164,9 +175,240 @@ body{
 
 
 .image_sity{
-    padding-left: 10px;
+    padding-left: 230px;
     padding-top: 100px;
-    width: 700px;
+    width: 600px;
     height: 501px;
   
 }
+
+/* Values */
+.inline_block{
+    padding-top:120px;
+    padding-left: 0px;
+}
+.block{
+    padding-top:120px;
+    padding-left: 230px;
+    display: inline;
+}
+.inline_block_achievement{
+    padding-top:50px;
+    padding-left: 0px;
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;
+    
+    text-align: center;
+    display: inline;
+    
+}
+.achiv{
+
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+   
+    margin: auto 0;
+    color:#FF5A30;
+    padding-left: 210px;
+    width:100px ;
+}
+.achiv_2{
+    padding-left: 155px;
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+    margin: auto 0;
+    text-align: center;
+    color:#FF5A30;
+} 
+.achiv_3{
+    padding-left: 160px;
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    color:#FF5A30;
+    margin: auto 0;
+} 
+.achiv_4{
+    padding-left: 130px;
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    color:#FF5A30;
+     margin: auto 0;
+} 
+/* Блоки описания */
+.inline_block_achievement_text{
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.achiv_text_1{
+    padding-left: 70px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.achiv_text_2{
+    padding-left: 30px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.achiv_text_2 p{
+    padding-bottom: 0px;
+}
+
+.quotation{
+    width: 735px;
+    height: 570px;
+    font-size: 20px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin-top: 120px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 600px;
+    background-color:rgb(255, 255, 255);
+}
+.quotation p{
+    padding-left: 135px;
+    padding-right: 135px;
+    font-weight: 600;
+    padding-top: 80px;
+    font-size:20px;
+}
+.quotation h3{
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size:20px;
+    font-style: normal;
+}
+
+.sinq{
+    padding-left: 500px;
+    padding-bottom: 300px;
+    position: absolute;
+    display: inline-block;
+}
+.name_seo{
+    padding-top: 0px;
+    margin-left: 135px;
+    font-size:14px;
+    color:#787A80;
+}
+.name{
+    font-size:16px;
+}
+.img{
+    margin-top: 250px;
+    display: inline-block;
+    margin-left: 100px;
+    padding-bottom: 120px;
+}
+/* Values */
+
+/* Блок истории компании */
+.history{
+    height: 1700px;
+    
+    background-color:#F4F5F6;
+}
+.val{
+    width: 1000px;
+    height: 1377px;
+    padding-left: 0px;
+    margin: auto;
+}
+.values{
+    
+    padding-top:80px;
+}
+.values p{
+    text-align: center;
+    font-size:18px;
+    color:#787A80;
+    
+    padding-bottom: 60px;
+}
+.values h1{
+    text-align: center;
+    font-size:46px;
+}
+.container{
+    /* height: 360px; */
+    display:flex;
+    gap : 100px;
+ }
+ .container img{
+    width: 48px;
+    height: 48px;
+    padding-left: 110px;
+ }
+ .container h1{
+    font-size: 20px;
+    text-align: center;
+ }
+ .container p{
+    color:#787A80;
+    font-size:16px;
+    text-align: center;
+ }
+ [class ^="box-"]{
+     width: 285px;
+     height: 188px;
+    
+     /* border: 2px solid black; */
+ 
+
+ 
+ }
+ /* Стили контенеров  */
+ /* История компании */
+ .history_container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 180px;
+    height: 700px;
+    gap: 120px;
+ }
+ .history_text{
+    width: 251px;
+ }
+ .history_text li{
+    padding-top: 54px;
+    font-size: 28px;
+    color: #9A9CA5;
+    font-weight: 700;
+ }
+ .present{
+    color: #FF5A30!important;
+ }
+.history_text h1{
+    font-size:46px;
+    width: 251px;   
+}
+.history_image{
+    padding-top: 180px;
+    color:#424551;
+}
+.history_image img{
+    width: 822px;
+    height: 546px;
+    
+}
+.history_image p{
+    padding-top: 36px;
+}
+/* Конец блока истории компании */
