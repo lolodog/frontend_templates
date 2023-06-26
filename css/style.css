@@ -372,7 +372,7 @@ body{
      /* border: 2px solid black; */
  
 
- 
+
  }
  /* Стили контенеров  */
  /* История компании */
@@ -421,4 +421,80 @@ body{
 .team{
     margin: auto;
     width: 1200px;
+    height: 1929px;
+    /* display: flex;
+    flex-direction: row; */
+    /* background-color:black; */
+}
+
+.partners_contener{
+    width: 1200px;
+    height: 339px;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.partners_contener h1{
+
+    font-size: 46px;
+}
+.partners_contener p{
+    font-size:18px;
+    color: #787A80;
+}
+.partners_flex{
+    padding-top: 60px;
+}
+.partners_flex div{
+    display: flex;
+    gap:102px;
+    width:1200px;
+   padding-top: 40px;
+}
+.partners_flex img{
+    display: flex;
+    gap:102px;
+    width: 120px;
+}
+.team_contener{
+    
+    text-align: center;
+    margin-top: 180px;
+}
+.team_contener p{
+    color:#787A80;
+    text-align: center;
+    font-size: 18px;
+}
+.team_contener h1{
+    font-size: 46px;
+}
+
+.team_flex{
+    padding-top: 60px;
+    gap: 30px;
+    display: flex;
+    height: 416px;
+}
+.team_flex div{
+    height: 416px;
+    width: 285px;
+    /* background-color:#000000; */
+}   
+.team_flex img{
+    height: 340px;
+    width: 285px;
+}   
+.team_flex h1{
+   font-size: 20px;
+}  
+.part_text{
+    padding-top: 80px;
+    
+}
+.part_text::after{
+    content: " Available Positions";
+    color: #FF5A30;
+    text-decoration:underline;
 }
