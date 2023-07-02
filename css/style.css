@@ -527,5 +527,12 @@ body{
 /* Верстка форм */
 .form{
     height: 826px;
+
     background-color:#fbfbfb;
+}
+.form div{
+    
+}
+.flex{
+    flex-direction: row;
 }
