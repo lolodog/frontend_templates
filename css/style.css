@@ -1,0 +1,531 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* Стили шапки блока навигации*/
+.active{
+    color: #FF5A30;
+    padding-left: 40px;
+    
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+}
+.active:hover{
+    color: #000000;
+}
+.a1:hover{
+    color: #FF5A30;
+}
+.head{
+    display: inline-block;
+    background-color:#ffffff;
+    /* position: fixed; */
+    height: 80px;
+    z-index: 30;
+}
+.mobile_phone{
+    display: inline-block;
+    position: absolute;
+    /* position: fixed; */
+    background-color:#ffffff;
+}
+.contact{
+    padding-top:20px;
+    padding-left: 160px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    background-color:#ffffff;
+}
+.phone_text{
+    padding-top: -20px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    display: inline;
+    font-size: 16px;
+    background-color:#ffffff;
+}
+.phone_number{
+    font-size: 16px;
+    padding-top: 0px;
+    height: 0px;
+    padding-left: 50px;
+    padding-bottom: -20px;
+    width: 150px;
+    z-index: 4;
+    position: absolute;
+    background-color:#ffffff;
+}
+.home_image{
+   padding-top: 15px;
+   padding-left: 70px;
+   position: absolute;
+   background-color:#ffffff;
+}
+.nav{
+    color:aliceblue;
+   
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    padding-left:150px;
+    font-size:20px;
+    padding-top: 33px;
+}
+.a1{
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+}
+.n1{
+    display: inline;
+    text-decoration: none;
+}
+
+
+.contact_message{
+    padding-top:20px;
+    padding-left: 430px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    
+}
+.mail_text{
+    
+    position: absolute;
+    z-index: 20;
+    padding-top: 6px;
+    padding-left: 490px;
+    padding-bottom:20px;
+    display: inline;
+    font-size: 16px;
+}
+.mail_text2{
+    /* position: absolute; */
+    padding-left: 10px;
+    padding-top: 20px;
+    z-index: 200;
+    position: absolute;
+    display: inline;
+    font-size: 16px;
+}
+/* Стили шапки блока навигации*/
+
+
+
+
+
+
+
+.about{
+    margin-top: -10px;
+    height: 600px;
+    
+    display: grid;
+    grid-template-columns: 600px 100px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.image{
+    padding-top: 50px;
+    
+    width: 500px;
+    height: 501px;
+}
+
+
+
+.about_title{
+    font-size: 72px;
+}
+.text_part{
+    padding-left: 150px;
+    padding-top: 130px;
+    word-wrap: break-word;
+    width: 600px;
+    height: 600px;
+    font-size:20px;
+
+    
+}
+
+.about_text{
+    padding-bottom: 20px;
+}
+
+.page{
+    font-size: 14px;
+    color: black;
+
+}
+
+
+
+.page::after{
+    content:" / О нас";
+    color: #9A9CA5;
+}
+
+
+.image_sity{
+    padding-left: 230px;
+    padding-top: 100px;
+    width: 600px;
+    height: 501px;
+  
+}
+
+/* Values */
+.inline_block{
+    padding-top:120px;
+    padding-left: 0px;
+}
+.block{
+    padding-top:120px;
+    padding-left: 230px;
+    display: inline;
+}
+.inline_block_achievement{
+    padding-top:50px;
+    padding-left: 0px;
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-weight: 700;
+    
+    text-align: center;
+    display: inline;
+    
+}
+.achiv{
+
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+   
+    margin: auto 0;
+    color:#FF5A30;
+    padding-left: 210px;
+    width:100px ;
+}
+.achiv_2{
+    padding-left: 155px;
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+    margin: auto 0;
+    text-align: center;
+    color:#FF5A30;
+} 
+.achiv_3{
+    padding-left: 160px;
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    color:#FF5A30;
+    margin: auto 0;
+} 
+.achiv_4{
+    padding-left: 130px;
+    display: inline;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    color:#FF5A30;
+     margin: auto 0;
+} 
+/* Блоки описания */
+.inline_block_achievement_text{
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.achiv_text_1{
+    padding-left: 70px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.achiv_text_2{
+    padding-left: 30px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.achiv_text_2 p{
+    padding-bottom: 0px;
+}
+
+.quotation{
+    width: 735px;
+    height: 570px;
+    font-size: 20px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin-top: 120px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 600px;
+    background-color:rgb(255, 255, 255);
+}
+.quotation p{
+    padding-left: 135px;
+    padding-right: 135px;
+    font-weight: 600;
+    padding-top: 80px;
+    font-size:20px;
+}
+.quotation h3{
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size:20px;
+    font-style: normal;
+}
+
+.sinq{
+    padding-left: 500px;
+    padding-bottom: 300px;
+    position: absolute;
+    display: inline-block;
+}
+.name_seo{
+    padding-top: 0px;
+    margin-left: 135px;
+    font-size:14px;
+    color:#787A80;
+}
+.name{
+    font-size:16px;
+}
+.img{
+    margin-top: 250px;
+    display: inline-block;
+    margin-left: 100px;
+    padding-bottom: 120px;
+}
+/* Values */
+
+/* Блок истории компании */
+.history{
+    height: 1700px;
+    
+    background-color:#F4F5F6;
+}
+.val{
+    width: 1000px;
+    height: 500px;
+    padding-left: 0px;
+    margin: auto;
+}
+.values{
+    
+    padding-top:80px;
+}
+.values p{
+    text-align: center;
+    font-size:18px;
+    color:#787A80;
+    
+    padding-bottom: 60px;
+}
+.values h1{
+    text-align: center;
+    font-size:46px;
+}
+.container{
+    /* height: 360px; */
+    display:flex;
+    gap : 100px;
+ }
+ .container img{
+    width: 48px;
+    height: 48px;
+    padding-left: 110px;
+ }
+ .container h1{
+    font-size: 20px;
+    text-align: center;
+ }
+ .container p{
+    color:#787A80;
+    font-size:16px;
+    text-align: center;
+ }
+ [class ^="box-"]{
+     width: 285px;
+     height: 188px;
+    
+     /* border: 2px solid black; */
+ 
+
+
+ }
+ /* Стили контенеров  */
+ /* История компании */
+ .history_container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 180px;
+    padding-left: 120px;
+    position: absolute;
+    height: 700px;
+    gap: 120px;
+ }
+ .history_text{
+    width: 251px;
+ }
+ .history_text li{
+    padding-top: 54px;
+    font-size: 28px;
+    color: #9A9CA5;
+    font-weight: 700;
+ }
+ .present{
+    color: #FF5A30!important;
+ }
+.history_text h1{
+    font-size:46px;
+    width: 251px;   
+}
+.history_image{
+    padding-top: 180px;
+    width: 822px;
+    color:#424551;
+}
+.history_image img{
+    width: 822px;
+    height: 546px;
+    
+}
+.history_image p{
+    padding-top: 36px;
+}
+/* Конец блока истории компании */
+
+/* Начало блоков партнеров */
+.partners{
+    height: 1929px;
+    background-color:#ffffff;
+}
+.team{
+    margin: auto;
+    width: 1200px;
+    height: 1929px;
+    /* display: flex;
+    flex-direction: row; */
+    /* background-color:black; */
+}
+
+.partners_contener{
+    width: 1200px;
+    height: 339px;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.partners_contener h1{
+
+    font-size: 46px;
+}
+.partners_contener p{
+    font-size:18px;
+    color: #787A80;
+}
+.partners_flex{
+    padding-top: 60px;
+}
+.partners_flex div{
+    display: flex;
+    gap:102px;
+    width:1200px;
+   padding-top: 40px;
+}
+.partners_flex img{
+    display: flex;
+    gap:102px;
+    width: 120px;
+}
+.team_contener{
+    
+    text-align: center;
+    margin-top: 180px;
+}
+.team_contener p{
+    color:#787A80;
+    text-align: center;
+    font-size: 18px;
+}
+.team_contener h1{
+    font-size: 46px;
+}
+
+.team_flex{
+    padding-top: 60px;
+    gap: 30px;
+    display: flex;
+    height: 416px;
+}
+.team_flex div{
+    height: 416px;
+    width: 285px;
+    /* background-color:#000000; */
+}   
+.team_flex img{
+    height: 340px;
+    width: 285px;
+}   
+.team_flex h1{
+   font-size: 20px;
+}  
+.part_text{
+    padding-top: 80px;
+    
+}
+.part_text::after{
+    content: " Available Positions";
+    color: #FF5A30;
+    text-decoration:underline;
+}
+
+.world_contaner{
+    height: 883px;
+    background-color:#F4F5F6;
+}
+
+.world_map{
+ 
+    width: 1100px;
+}
+.world_contaner div{
+    width: 1230px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.world_contaner h1{
+    padding-top: 80px;
+    font-size: 46px;
+    padding-bottom: 60px;
+}
+
+/* Верстка форм */
+.form{
+    height: 826px;
+    background-color:#fbfbfb;
+}
